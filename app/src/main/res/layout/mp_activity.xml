@@ -29,7 +29,7 @@
         android:background="@drawable/custom_edittext"
         android:drawableStart="@drawable/ic_round_edit_calendar"
         android:drawablePadding="7dp"
-        android:drawableTint="#323232"
+        android:drawableTint="#70000000"
         android:ems="10"
         android:hint="@string/duree"
         android:inputType="numberDecimal"
