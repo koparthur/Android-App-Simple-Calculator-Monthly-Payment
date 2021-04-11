@@ -1,0 +1,19 @@
+<resources>
+    <string name="textViewTitre">Simple Calculator</string>
+    <string name="textViewNb1">Number 1 :</string>
+    <string name="textViewNb2">Number 2 :</string>
+    <string name="buttonplus" translatable="false">\u002B</string>
+    <string name="buttonmoins" translatable="false">\u2212</string>
+    <string name="buttondiv" translatable="false">\u00F7</string>
+    <string name="buttonfois" translatable="false">\u00D7</string>
+    <string name="pbNbTextToast">Number Problem !</string>
+    <string name="titleMP">Monthly payment</string>
+    <string name="buttonCalc">Calculate</string>
+    <string name="taux">Rate (%)</string>
+    <string name="duree">Duration (month)</string>
+    <string name="capital">Capital</string>
+    <string name="pbChangeActivity">Problem of changing activity …</string>
+    <string name="textviewnotebtm">Use the system navigation buttons to return to the calculator.</string>
+    <string name="result" translatable="false"></string>
+    <string name="app_name">Calculator &amp; Monthly Payment</string>
+</resources>

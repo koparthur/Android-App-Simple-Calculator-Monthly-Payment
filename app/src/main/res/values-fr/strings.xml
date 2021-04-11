@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculatrice &amp; Mensualité</string>
+    <string name="textViewTitre">Calculatrice Simple</string>
+    <string name="textViewNb1">Nombre 1 :</string>
+    <string name="textViewNb2">Nombre 2 :</string>
+    <string name="pbNbTextToast">Problème de nombre !</string>
+    <string name="titleMP">Mensualité</string>
+    <string name="buttonCalc">Calculer</string>
+    <string name="taux">Taux (%)</string>
+    <string name="duree">Durée (mois)</string>
+    <string name="capital">Capital</string>
+    <string name="pbChangeActivity">Problème de changement d\'activité ...</string>
+    <string name="textviewnotebtm">Utilisez les boutons de navigation du système pour revenir à la calculatrice.</string>
+</resources>

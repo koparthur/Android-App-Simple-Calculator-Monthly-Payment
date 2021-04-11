@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MP_Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#3C3F41"
+        android:drawableTint="#FFFFFF"
+        android:text="@string/titleMP"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/dureeId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:background="@drawable/custom_edittext"
+        android:drawableStart="@drawable/ic_round_edit_calendar"
+        android:drawablePadding="7dp"
+        android:drawableTint="#323232"
+        android:ems="10"
+        android:hint="@string/duree"
+        android:inputType="numberDecimal"
+        android:padding="15dp"
+        android:paddingStart="15dp"
+        android:textColor="#70000000"
+        android:textColorHighlight="#70000000"
+        android:textColorHint="#70000000"
+        android:textColorLink="#70000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tauxId" />
+
+    <EditText
+        android:id="@+id/tauxId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableStart="@drawable/ic_round_bar_chart"
+        android:drawablePadding="5dp"
+        android:drawableTint="#70000000"
+        android:ems="10"
+        android:hint="@string/taux"
+        android:inputType="numberDecimal"
+        android:padding="15dp"
+        android:paddingStart="15dp"
+        android:textColor="#70000000"
+        android:textColorHighlight="#70000000"
+        android:textColorHint="#70000000"
+        android:textColorLink="#70000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/capitalId" />
+
+    <EditText
+        android:id="@+id/capitalId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableStart="@drawable/ic_round_attach_money"
+        android:drawablePadding="5dp"
+        android:drawableTint="#70000000"
+        android:ems="10"
+        android:hint="@string/capital"
+        android:inputType="numberDecimal"
+        android:padding="15dp"
+        android:paddingStart="15dp"
+        android:textColor="#70000000"
+        android:textColorHighlight="#70000000"
+        android:textColorHint="#70000000"
+        android:textColorLink="#70000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:onClick="clickOn"
+        android:text="@string/buttonCalc"
+        app:icon="@drawable/ic_round_calculate"
+        app:iconPadding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/resultId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="424dp"
+        android:text="@string/result"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:onClick="onClickView2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_round_calculate"
+        tools:context=".MP_Activity" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
